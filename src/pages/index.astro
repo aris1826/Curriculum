@@ -1,11 +1,50 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro"
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+  <h1 class="titulo-principal">Hola, soy</h1>
+	<section class="pantalla" id="primera-parte">
+  <div class="contenido">
+    
+  
+  <div class="introduccion">
+    <img src="/foto wordpress.png" alt="foto Sira" class="foto-Sira" />
+    <div class="texto-introduccion">
+      <h2 class="nombre-SiraEsonoPipa">Sira Esono Pipa</h2>
+      <h3 class="sobre-mi">Leamos un poquito sobre mí</h3>
+      <p class="descripcion-sobre-mi">
+        Soy estudiante del grado superior de Desarrollo de Aplicaciones Multiplataforma.
+        La tenacidad, la observación y el análisis son habilidades que hay que destacar en el sector de la
+        programación y el desarrollo. Estas herramientas son necesarias y con ellas pretendo aprender
+        constantemente aportando mi visión práctica y la alternativa de que siempre se puede mejorar
+        aprendiendo de nuestras debilidades y fortalezas, brindándonos así oportunidades de crecimiento.
+      </p>
+    </div>
+  </div>
+  <div class="fondo-ondas"></div>
+</section>
+  
+  <!-- parte de tarjetas -->
+  <section class="tarjetas">
+    <a href="/sapereAude" class="tarjeta" id="sapereAude">
+        <h3>Sapere Aude</h3>
+        <p>Atrévete a saber</p>
+      </a>
+      
+      <a href="/workinprogress" class="tarjeta" id="work-in-progress">
+        <h3>Work in Progress</h3>
+        <p>Siempre mejorando</p>
+      </a>
+      
+      <a href="/experiencia" class="tarjeta" id="experiencia">
+        <h3>Experiencia</h3>
+        <p>Lo adquirido en el camino</p>
+      </a>
+      
+  </section>
+
+  
+
 </Layout>

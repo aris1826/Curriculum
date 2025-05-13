@@ -1,0 +1,74 @@
+.pagina-experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+    background: #fffbe6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .sira-monigote {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .comic {
+    display: none;
+    text-align: center;
+    max-width: 600px;
+    background: #fff;
+    border: 3px solid #000;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    position: relative;
+    box-shadow: 4px 4px 0 #000;
+  }
+  
+  .comic p {
+    margin-bottom: 1rem;
+  }
+  
+  .año {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .boton-flecha {
+    background-color: #800080;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  #texto-final {
+    display: none;
+  }
+
+  #texto1 {
+    display: block;
+  }
+  
+  .volver-inicio img {
+    margin-top: 1rem;
+    width: 80px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .volver-inicio img:hover {
+    transform: scale(1.1);
+  }
+
+  .boton-flecha {
+    text-decoration: none; 
+  }
+  
+  

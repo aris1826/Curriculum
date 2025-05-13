@@ -1,0 +1,26 @@
+<!--menú del header-->
+<nav  class="navegador">
+  <!--quien es Sira-->
+  <div class="menu">
+    <button data-menu="quien-es-sira" class="boton">Quién es Sira</button>
+
+      <ul id="quien-es-sira"  class="despliegue">
+      <li><a href="#">Sobre mí</a></li>
+      <li><a href="#">Formación</a></li>
+      <li><a href="#">Proyectos</a></li>
+      <li><a href="#">Experiencia</a></li>
+    </ul>
+  </div>
+<!--Contacto -->
+  <div class="menu">
+    <button data-menu="menu-contacto" class="boton">Contacto</button>
+
+      <ul id="menu-contacto" class="desplegar-menu">
+      
+      <li>Dirección: [COMUNIDAD DE MADRID]</li> <!--<li><a href="/direccion">Dirección</a></li>-->
+      <li>Teléfono: [722641327]</li> <!--<li><a href="/telefono">Teléfono</a></li>-->
+      <li>Email: []</li> <!--<li><a href="/email">Email</a></li>-->
+    </ul>
+  </div>
+</nav>
+</header>
